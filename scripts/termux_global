@@ -1,0 +1,24 @@
+# 🎨 Paleta de colores globales
+RESET="\033[0m"
+
+# Colores normales
+BLACK="\033[0;30m"
+RED="\033[0;31m"
+GREEN="\033[0;32m"
+YELLOW="\033[0;33m"
+BLUE="\033[0;34m"
+MAGENTA="\033[0;35m"
+CYAN="\033[0;36m"
+WHITE="\033[0;37m"
+
+# Colores brillantes
+BRED="\033[1;31m"
+BGREEN="\033[1;32m"
+BYELLOW="\033[1;33m"
+BBLUE="\033[1;34m"
+BMAGENTA="\033[1;35m"
+BCYAN="\033[1;36m"
+BWHITE="\033[1;37m"
+
+# Alias
+alias mi='echo -e "${BYELLOW}Usuario:${RESET} ${BCYAN}$(whoami)${RESET}\n${BYELLOW}IP local:${RESET} ${BCYAN}$(ifconfig 2>/dev/null | grep -E "inet (addr:)?([0-9]{1,3}\.){3}[0-9]{1,3}" | grep -v "127.0.0.1" | awk "{print \$2}" | cut -d: -f2 | head -n 1)${RESET}"'
