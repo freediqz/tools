@@ -4,7 +4,7 @@
 palabras_a_reemplazar=('ZSH_THEME="robbyrussell"' 'plugins=(git)')
 
 # Array con nuevas palabras
-nuevas_palabras=('ZSH_THEME="powerlevel10k/powerlevel10k"' 'plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete)')
+nuevas_palabras=('ZSH_THEME="powerlevel10k/powerlevel10k"' 'plugins=(git zsh-autosuggestions zsh-syntax-highlighting)')
 
 # Ruta del archivo
 archivo="/data/data/com.termux/files/home/.zshrc"
